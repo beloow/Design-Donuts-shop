@@ -88,7 +88,6 @@ header div img {
     display: inline-block;
     float: right;
     list-style: none;
-    /* margin-right: 14px; */
     margin-top: -2px;
     text-align: right;
     transition: transform 0.5s ease-out;
@@ -181,7 +180,7 @@ header div img {
   
     /* Icon Bars */
     .icon-bars {
-      background: rgb(13, 26, 38);
+      background: var(--pear-can);
       position: absolute;
       left: 1px;
       top: 45%;
@@ -192,7 +191,7 @@ header div img {
     } 
   
     .icon-bars::before {
-      background: rgb(13, 26, 38);
+      background: var(--pear-can);
       content: '';
       position: absolute;
       left: 0;
@@ -207,7 +206,7 @@ header div img {
   
     .icon-bars::after {
       margin-top: 0px;
-      background: rgb(13, 26, 38);
+      background: var(--pear-can);
       content: '';
       position: absolute;
       left: 0;
@@ -222,8 +221,8 @@ header div img {
   
     /* Bars Shadows */
     .icon-bars.overlay {
-      background: rgb(97, 114, 129);
-      background: rgb(183, 199, 211);
+      background: var(--pear-can);
+      background: var(--pear-background);
       width: 20px;
       animation: middleBar 3s infinite 0.5s;
       -webkit-animation: middleBar 3s infinite 0.5s;
@@ -238,8 +237,8 @@ header div img {
         }
   
     .icon-bars.overlay::before {
-      background: rgb(97, 114, 129);
-      background: rgb(183, 199, 211);
+      background: var(--pear-can);
+      background: var(--pear-background);
       width: 10px;
       animation: topBar 3s infinite 0.2s;
       -webkit-animation: topBar 3s infinite 0s;
@@ -254,8 +253,8 @@ header div img {
         }
   
     .icon-bars.overlay::after {
-      background: rgb(97, 114, 129);
-      background: rgb(183, 199, 211);
+      background: var(--pear-can);
+      background: var(--pear-background);
       width: 15px;
       animation: bottomBar 3s infinite 1s;
       -webkit-animation: bottomBar 3s infinite 1s;
@@ -304,8 +303,7 @@ header div img {
                      Responsive Mobile Menu 
     ======================================================*/
   .overlay-menu {
-    background: lightblue;
-    color: rgb(13, 26, 38);
+    background: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -341,7 +339,7 @@ header div img {
   
   .overlay-menu li a:hover,
   .overlay-menu li a:active {
-    color: rgb(28, 121, 184);
+    color: var(--pear-background);
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
@@ -376,19 +374,19 @@ header div img {
     border: none;
   }
   /* Typography */
-  section.home h1 {
+  h1 {
     font-family: "Lexend";
-    font-size: 449px !important;
-    line-height: normal !important;
-    color: var(--white-color) !important;
-    margin: 0 !important;
+    font-size: 449px;
+    line-height: normal ;
+    color: var(--white-color);
+    margin: 0;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  section.home h2 {
+  h2 {
     font-family: "Lexend";
     font-size: 40px;
     line-height: normal;
