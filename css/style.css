@@ -324,9 +324,10 @@ header div img {
   }
   
   .overlay-menu li a {
+    color: var(--pear-background);
     display: block;
     font-size: 1.8em;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
   /*   opacity: 0; */
     padding: 10px 0;
     text-align: right;
