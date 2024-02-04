@@ -11,7 +11,6 @@
 }
 
 :root {
-  --bg-color: rgb(49,48,50);
   --text-color: #FFF;
   --main-color: #FF9292;
   --error-color: #d93025;
@@ -386,6 +385,8 @@ header div img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    z-index: 2;
   }
   h2 {
     font-family: "Lexend";
@@ -416,10 +417,9 @@ header div img {
   .cane-image {
     max-width: 500px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    mask-image: url(https://www.yudiz.com/codepen/fruity/cane.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-position: center center;
@@ -427,17 +427,10 @@ header div img {
     -webkit-mask-size: 100% auto;
     mask-size: 100% auto;
     overflow: hidden;
+    z-index: 1;
   }
   .cane-image img {
     width: 100%;
-  }
-  .cane-labels {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300% !important;
-    mix-blend-mode: multiply;
-    transition: all ease-in-out 0.3s;
   }
   /*Fruits Images */
   .fruit-image {
@@ -513,11 +506,11 @@ header div img {
   }
   .section {
     min-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     overflow: hidden;
     z-index: -1;
-    background: var(--main-color);
+    background: linear-gradient(var(--main-color), var(--pear-background));
   }
   .section:nth-child(2) {
     background-color: var(--apple-background);
@@ -529,6 +522,67 @@ header div img {
     animation: wave-apple-effect 4s linear infinite;
     animation-direction: normal;
   }
+
+  /* ABOUT  */
+
+  section.about {
+    padding: 10rem 9% 2rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--pear-background);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--pear-background);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: linear-gradient(var(--pear-background), var(--exotic-background));
+    color: var(--text-color);
+}
+
+.about-img img {
+    /* border-radius: 50%; */
+    width: 25vw;
+    padding: 10%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content span {
+  color: var(--pear-logo);
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 2.6rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 
   /*...................................... KEYFRAMES .......................................... */
 
@@ -619,6 +673,9 @@ header div img {
     }
   }
   @media screen and (max-width: 1199px) {
+    section.about {
+      padding: 10rem 3% 2rem;
+    }
     h1 {
       font-size: 300px !important;
     }
@@ -642,6 +699,9 @@ header div img {
     }
   }
   @media screen and (max-width: 991px) {
+    section.about {
+      padding: 1rem 3% 2rem;
+    }
     h1 {
       font-size: 240px !important;
     }
@@ -701,6 +761,13 @@ header div img {
       max-width: 180px;
       bottom: 150px;
     }
+    .about {
+      flex-direction: column-reverse;
+    }
+
+    .about img {
+        width: 70vw;
+    }
   }
   @media screen and (max-width: 575px) {
     h1 {
@@ -728,6 +795,9 @@ header div img {
   }
 
   @media screen and (max-width: 375px) {
+    .about-img img {
+      width: 90vw;
+    }
     h1 {
       font-size: 80px !important;
     }
