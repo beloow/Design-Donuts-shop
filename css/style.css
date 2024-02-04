@@ -448,24 +448,28 @@ header div img {
     max-width: 282px;
     bottom: 100px;
     animation: Float infinite 6s;
+    animation-delay: 5s;
   }
   .image-two {
     max-width: 240px;
     top: 23%;
     left: 25%;
-    animation: Float infinite 15s;
+    animation: Float infinite 7s;
+    animation-delay: 7s;
   }
   .image-three {
     max-width: 250px;
     top: 23%;
     right: 25%;
     animation: Float infinite 7s;
+    animation-delay: 3s;
   }
   .image-four {
     max-width: 350px;
     bottom: 100px;
     right: 0;
-    animation: Float infinite 5s dela;
+    animation: Float infinite 7s;
+    animation-delay: 0s;
   }
   /* After */
   .fruit-image::after {
