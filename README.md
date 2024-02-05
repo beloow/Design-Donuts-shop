@@ -97,6 +97,7 @@ DONUTS SHOP..
 - [x] Section About
 - [x] Section Products
 - [ ] Section Contact
+- [ ] Effet d'ombre des donuts du home a revoir
 - [ ] Optimisation du code (Retrait des éléments inutile)
 - [ ] Refonte des class CSS
 - [ ] Ajout d'un background au menu Nav
