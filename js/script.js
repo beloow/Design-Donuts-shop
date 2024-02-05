@@ -1,7 +1,3 @@
-window.onload = () => {
-    console.log("Page chargée");
-};
-
 // ============================================= Navigation =============================================
 
 let menuIcon = document.querySelector('.menuIcon');
@@ -17,7 +13,7 @@ menuIcon.addEventListener('click', () => {
         }
     });
 
-// Toggle Menu Icon ========================================
+//======================================== Toggle Menu Icon ========================================
 let toggleIcon = document.querySelector('.menuIcon');
 
 toggleIcon.addEventListener('click', () => {
