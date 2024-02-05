@@ -42,7 +42,7 @@
     <a href="https://github.com/beloow/Design-Donuts-shop/index.html"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://beloow.github.io/Design-Donuts-shop/">View Demo</a>
+    <a target="_blank" href="https://beloow.github.io/Design-Donuts-shop/">View Demo</a>
     ·
     <a href="https://github.com/beloow/Design-Donuts-shop/issues">Report Bug</a>
     ·
