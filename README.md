@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://beloow.github.io/Design-Donuts-shop/">
-    <img src="assets/img/branding/logo/logo-white.png" alt="Logo" width="80" height="80">
+    <img src="assets/img/branding/logo/logo-white.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Donut Shop</h3>

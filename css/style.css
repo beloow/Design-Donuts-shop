@@ -60,6 +60,11 @@ strong {
 
 a {
   color: var(--pear-background);
+  transition: 1.2s ease-out;
+}
+
+a:hover {
+  color: var(--pear-can);
 }
 
 .btn:hover {
