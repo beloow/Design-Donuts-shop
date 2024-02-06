@@ -96,11 +96,11 @@ DONUTS SHOP..
 - [x] Section Home
 - [x] Section About
 - [x] Section Products
-- [ ] Section Contact
+- [x] Section Contact
+- [ ] Section About a revoir en version mobile
+- [ ] Refonte du menu mobile/pc
 - [ ] Effet d'ombre des donuts du home a revoir
-- [ ] Optimisation du code (Retrait des éléments inutile)
-- [ ] Refonte des class CSS
-- [ ] Ajout d'un background au menu Nav
+- [ ] Optimisation du code (Retrait des éléments inutile, Refonte des class CSS)
 - [ ] Errors pages 404 & 500
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
