@@ -67,7 +67,7 @@ Dans le paysage numérique moderne, le simple fait de posséder un site web n'es
 
 Vous souhaitez m'aider > <a href="https://github.com/beloow/Design-Donuts-shop/issues">Request Feature</a> Ou <a href="https://github.com/beloow/Design-Donuts-shop/issues">Report Bug</a>
 
-Projet toujours en cours de création ! Des mises à jour régulières arrivent petites à petit. Vous pouvez suivre la <li><a href="#roadmap">Roadmap</a></li>.
+Projet toujours en cours de création ! Des mises à jour régulières arrivent petites à petit. Vous pouvez suivre la <a href="#roadmap">Roadmap</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
