@@ -223,8 +223,8 @@ header div img {
     cursor: pointer;
     display: block;
     position: fixed;
-    right: 15px;
-    top: 20px;
+    right: 40px;
+    top: 35px;
     height: 23px;
     width: 27px;
     z-index: 12;
@@ -348,7 +348,7 @@ header div img {
 }
 
 .overlay-menu li a {
-  color: var(--pear-background);
+  color: var(--text-color);
   display: block;
   font-size: 1.8em;
   letter-spacing: 5px;
@@ -405,6 +405,7 @@ header {
 }
 
 /* Cane Image and Wrapper Image */
+
 .cane-image {
   max-width: 500px;
   position: absolute;
@@ -467,21 +468,21 @@ header {
   height: 30px;
 } */
 
-.image-one::after {
+.donut-one::after {
   bottom: -50px;
 }
 
-.image-two::after {
+.donut-two::after {
   bottom: -200px;
   height: 22px;
 }
 
-.image-three::after {
+.donut-three::after {
   bottom: -280px;
   width: 103px;
 }
 
-.image-four::after {
+.donut-four::after {
   bottom: -50px;
 }
 
@@ -536,10 +537,6 @@ section.about {
   color: var(--pear-logo);
 }
 
-.about-content h2 {
-  text-align: left;
-  line-height: 1.2;
-}
 
 .about-content h3 {
   font-size: 2.6rem;
@@ -635,7 +632,7 @@ section.product {
   ======================================================*/
 
 /* SOON */
-section.contact{
+section.contact {
   background: linear-gradient(var(--pear-background), var(--main-color));
   color: var(--text-color);
   padding: 2rem 9% 5rem;
@@ -658,7 +655,7 @@ section.contact{
   padding: 2rem;
 }
 
-.Contact-elements h3{
+.Contact-elements h3 {
   color: var(--pear-logo);
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -739,8 +736,7 @@ section.contact{
 }
 
 .footer-call-to-action-button:hover {
-  background: var(--pear-can);
-  color: var(--text-color);
+  background: var(--pear-logo);
 }
 
 .footer-call-to-action-button {
@@ -921,25 +917,26 @@ section.contact{
     font-size: 350px !important;
   }
 
+
   .cane-image {
     max-width: 280px;
   }
 
-  .image-one {
+  .donut-one {
     max-width: 250px;
   }
 
-  .image-two {
+  .donut-two {
     max-width: 215px;
     left: 22%;
     top: 10%;
   }
 
-  .image-three {
+  .donut-three {
     max-width: 180px;
   }
 
-  .image-four {
+  .donut-four {
     max-width: 260px;
     right: 40px;
   }
@@ -958,22 +955,22 @@ section.contact{
     width: 150%;
   }
 
-  .image-one {
+  .donut-one {
     max-width: 220px;
   }
 
-  .image-two {
+  .donut-two {
     max-width: 185px;
     left: 18%;
     top: 10%;
   }
 
-  .image-three {
+  .donut-three {
     max-width: 180px;
     right: 18%;
   }
 
-  .image-four {
+  .donut-four {
     max-width: 230px;
   }
 }
@@ -997,22 +994,22 @@ section.contact{
     top: 90%;
   }
 
-  .image-one {
+  .donut-one {
     max-width: 180px;
   }
 
-  .image-two {
+  .donut-two {
     max-width: 165px;
     left: 12%;
     top: 12%;
   }
 
-  .image-three {
+  .donut-three {
     max-width: 150px;
     right: 12%;
   }
 
-  .image-four {
+  .donut-four {
     max-width: 200px;
   }
 }
@@ -1026,6 +1023,19 @@ section.contact{
     font-size: 30px;
   }
 
+  .heading {
+    text-align: center;
+    font-size: 70px;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
   .cane-image {
     max-width: 180px;
   }
@@ -1036,23 +1046,23 @@ section.contact{
     font-size: 20px;
   }
 
-  .image-one {
+  .donut-one {
     max-width: 180px;
     bottom: 150px;
   }
 
-  .image-two {
+  .donut-two {
     max-width: 145px;
     left: 12%;
     top: 15%;
   }
 
-  .image-three {
+  .donut-three {
     max-width: 130px;
     right: 10%;
   }
 
-  .image-four {
+  .donut-four {
     max-width: 180px;
     bottom: 150px;
   }
@@ -1064,6 +1074,10 @@ section.contact{
   .about img {
     width: 70vw;
   }
+
+  .nav-wrapper {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1071,26 +1085,39 @@ section.contact{
     font-size: 100px !important;
   }
 
+  .heading {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
   .cane-image::after {
     width: 100%;
   }
 
-  .image-one {
+  .donut-one {
     max-width: 150px;
   }
 
-  .image-two {
+  .donut-two {
     max-width: 115px;
     left: 4%;
     top: 18%;
   }
 
-  .image-three {
+  .donut-three {
     max-width: 100px;
     right: 4%;
   }
 
-  .image-four {
+  .donut-four {
     max-width: 150px;
     right: 0;
   }
@@ -1101,6 +1128,19 @@ section.contact{
     width: 90vw;
   }
 
+  .heading {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
   h1 {
     font-size: 80px !important;
   }
@@ -1109,28 +1149,39 @@ section.contact{
     width: 100%;
   }
 
-  .image-one {
+  .donut-one {
     max-width: 150px;
   }
 
-  .image-two {
+  .donut-two {
     max-width: 115px;
     left: 4%;
     top: 18%;
   }
 
-  .image-three {
+  .donut-three {
     max-width: 100px;
     right: 4%;
   }
 
-  .image-four {
+  .donut-four {
     max-width: 150px;
     right: 0;
   }
 }
 
-/* A trier */
+/* min */
+
+@media (min-width: 767px) {
+
+  .about-content h2,
+  .about-content h3 {
+    text-align: left;
+    line-height: 1.2;
+  }
+}
+
+/* A REVOIR */
 
 /* Media Query For different screens */
 @media (min-width:320px) and (max-width:479px) {
@@ -1183,13 +1234,11 @@ section.contact{
   }
 }
 
-/* A trier aussi */
-
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
   .nav-wrapper {
     width: 90%;
   }
-}
+} */
 
 @media(max-width: 638px) {
   .nav-wrapper {

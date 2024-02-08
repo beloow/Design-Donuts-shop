@@ -1,14 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -24,7 +15,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
-
 
 
 <!-- PROJECT LOGO -->
@@ -50,8 +40,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table des matières</summary>
@@ -68,13 +56,18 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Bienvenue dans l'univers délicieusement sucré des Donuts Délices ! Je suis ravis de vous présenter mon projet de création d'un site web vitrine dédié à une boutique de donuts.
 
-DONUTS SHOP..
+Mon objectif est de créer une plateforme en ligne qui capture l'essence même de la gourmandise et de l'artisanat derrière chaque donut. À travers un design moderne et intuitif, le site mettra en valeur la variété de saveurs et l'authenticité des produits proposés par la boutique.
+
+Dans le paysage numérique moderne, le simple fait de posséder un site web n'est plus suffisant. Mon objectif va bien au-delà de la simple présence en ligne. Il s'agit de créer une véritable expérience immersive pour les visiteurs, où chaque clic est une invitation à explorer, à savourer et à se connecter avec la boutique de donuts.
+
+Vous souhaitez m'aider > <a href="https://github.com/beloow/Design-Donuts-shop/issues">Request Feature</a> Ou <a href="https://github.com/beloow/Design-Donuts-shop/issues">Report Bug</a>
+
+Projet toujours en cours de création ! Des mises à jour régulières arrivent petites à petit. Vous pouvez suivre la <li><a href="#roadmap">Roadmap</a></li>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,9 +88,9 @@ DONUTS SHOP..
 
 - [x] Section Home
 - [x] Section About
-- [x] Section Products
+- [ ] Refonte Section Products
 - [x] Section Contact
-- [ ] Section About a revoir en version mobile
+- [x] Section About a revoir en version mobile
 - [ ] Refonte du menu mobile/pc
 - [ ] Effet d'ombre des donuts du home a revoir
 - [ ] Optimisation du code (Retrait des éléments inutile, Refonte des class CSS)
