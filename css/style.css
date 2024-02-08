@@ -31,7 +31,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 body {
@@ -529,8 +529,9 @@ section.about {
 }
 
 .about-img img {
-  width: 25vw;
-  padding: 10%;
+  width: 30vw;
+  /* padding: 10%; */
+  border-radius: 20%;
 }
 
 .about-content span {
@@ -790,6 +791,31 @@ section.contact {
   margin-right: auto;
   max-width: 1200px;
 }
+/*======================================================
+                        Audio player
+  ======================================================*/
+
+  .player {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .player button {
+    background: none;
+  }
+
+ 
+  .button-icons {
+    font-size: 25px;
+    /* background: var(--main-color); */
+    color: var(--text-color);
+    border-radius: 100%;
+    border: #FFF 3px solid;
+    margin-top: auto;
+    padding: 15px;
+  }
+
 
 /*======================================================
                           KeyFrames
@@ -1120,6 +1146,27 @@ section.contact {
   .donut-four {
     max-width: 150px;
     right: 0;
+  }
+
+  .player {
+    position: fixed;
+    bottom: 35px;
+    left: 20px;
+  }
+
+  .player button {
+    background: none;
+  }
+
+ 
+  .button-icons {
+    font-size: 20px;
+    /* background: var(--main-color); */
+    color: var(--text-color);
+    border-radius: 100%;
+    border: #FFF 2px solid;
+    margin-top: auto;
+    padding: 10px;
   }
 }
 
