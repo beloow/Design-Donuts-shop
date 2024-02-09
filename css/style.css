@@ -1041,6 +1041,9 @@ section.contact {
 }
 
 @media screen and (max-width: 767px) {
+  html {
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 180px !important;
   }
