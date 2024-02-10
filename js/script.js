@@ -53,9 +53,9 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.donut-one, .donut-two, .donut-three, .donut-four, .cane-image, .img-box, .contact-section-container, .footer-content', { origin: 'bottom' });
-ScrollReveal().reveal('.about-img, .navi, .product-indicators', { origin: 'left' });
-ScrollReveal().reveal('.about-content, .heading, .product-menu', { origin: 'right' });
+ScrollReveal().reveal('.donut-one, .donut-two, .donut-three, .donut-four, .cane-image, .img-box,', { origin: 'bottom' });
+ScrollReveal().reveal('.about-img, .navi, .product-indicators, .contact-section-container', { origin: 'left' });
+ScrollReveal().reveal('.about-content, .heading, .product-menu, .footer-content', { origin: 'right' });
 
 
 /*======================================================
@@ -85,10 +85,10 @@ const mains = JSON.parse(
 );
 const desserts = JSON.parse(
 	"[" +
-		'{ "type":"separator", "description":"SWEETS" },' +
-		'{ "type":"food", "name":"CHOCOLATE MOUSSE", "description":"with star anise, a pecan brownie and salty caramel sauce", "price":"12.00€" },' +
-		'{ "type":"food", "name":"TIRAMISU", "description":"rolled rhubarb pistachio with vanilla strawberry amaretto sauce", "price":"13.50€" },' +
-		'{ "type":"food", "name":"FRUIT SALAD", "description":"exotic fruits with tapioca pearls mango sorbet and homemade coconut liqueur", "price":"10.50€" } ]'
+		'{ "type":"separator", "description":"Nos donuts" },' +
+		'{ "type":"food", "name":"donut", "description":"donut", "price":"12.00€" },' +
+		'{ "type":"food", "name":"donut", "description":"donut", "price":"13.50€" },' +
+		'{ "type":"food", "name":"donut", "description":"donut", "price":"10.50€" } ]'
 );
 const drinks = JSON.parse(
 	"[" +
