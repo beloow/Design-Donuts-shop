@@ -88,12 +88,13 @@ Projet toujours en cours de création ! Des mises à jour régulières arrivent 
 
 - [x] Section Home
 - [x] Section About
-- [ ] Refonte Section Products
+- [x] Refonte Section Products
+- [ ] Responsive Section Products
 - [x] Section Contact
 - [x] Section About a revoir en version mobile
 - [ ] Refonte du menu mobile/pc
 - [ ] Effet d'ombre des donuts du home a revoir
-- [ ] Optimisation du code (Retrait des éléments inutile, Refonte des class CSS)
+- [ ] Optimisation du code (Retrait des éléments inutile, Refonte des classes CSS)
 - [ ] Errors pages 404 & 500
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).

@@ -14,7 +14,11 @@
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   <!-- fontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css">
+  <!-- fontDancing -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik:wght@300;700&display=swap" rel="stylesheet">
   
+
   <title>DonutShop.com | Welcome</title>
 </head>
 
@@ -112,81 +116,66 @@
 
     <!-- PRODUCT SECTION -->
     <section id="product" class="product">
-      <h2 class="heading">Nos <span>Produits</span></h2>
-      <div class="gallery-image">
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-01.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
+      <div class="product-container">
+        <div class="product-header">
+          <div class="product-title"><h2 class="heading">Nos <span>produits</span></h2></div>
+        </div>
+        <div class="product-indicators">
+          <div id="i1">
+            <div class="navi-indicator" id="ni1"></div>
+          </div>
+          <div id="i2">
+            <div class="navi-indicator" id="ni2"></div>
+          </div>
+          <div id="i3">
+            <div class="navi-indicator" id="ni3"></div>
+          </div>
+          <div id="i4">
+            <div class="navi-indicator" id="ni4"></div>
           </div>
         </div>
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-02.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
+        <div class="navi">
+          <div class="navi-item1">
+            <button class="product-nav-button" id="startersbutton">
+              <div class="navi-icon"><i class="fas fa-seedling"></i></div>
+              <div class="navi-text"><h3>Pâtisseries</h3></div>
+            </button>
+          </div>
+          <div class="navi-item2">
+            <button class="product-nav-button" id="mainsbutton">
+              <div class="navi-icon"><i class="fas fa-pizza-slice"></i></div>
+              <div class="navi-text">Chez vous</div>
+            </button>
+          </div>
+          <div class="navi-item3">
+            <button class="product-nav-button" id="dessertsbutton">
+              <div class="navi-icon"><i class="fas fa-ice-cream"></i></div>
+              <div class="navi-text">Donuts</div>
+            </button>
+          </div>
+          <div class="navi-item4">
+            <button class="product-nav-button" id="drinksbutton">
+              <div class="navi-icon"><i class="fas fa-wine-glass-alt"></i></div>
+              <div class="navi-text">Boissons</div>
+            </button>
           </div>
         </div>
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-03.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
+        <div class="product-menu">
+          <div class="product-menu-separator">Separator</div>
+          <div class="product-menu-item">
+            <div class="product-menu-item-name">Food</div>
+            <div class="product-menu-item-description">Food yada yada</div>
+            <div class="product-menu-item-price">17.50</div>
           </div>
-        </div>
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-04.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
-          </div>
-        </div>
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-05.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
-          </div>
-        </div>
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-02.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
-          </div>
-        </div>
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-04.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
-          </div>
-        </div>
-        <div class="img-box">
-          <img src="assets/img/donuts/product-donus-03.jpg" alt="" />
-          <div class="transparent-box">
-            <div class="caption">
-              <p>Donut</p>
-              <p class="opacity-low">Un magnifique Donut</p>
-            </div>
+          <div class="product-menu-separator">Separator</div>
+          <div class="drink-item">
+            <div class="drink-item-name">Drink</div>
+            <div class="drink-item-description">3.3dl</div>
+            <div class="drink-item-price">4.50</div>
           </div>
         </div>
       </div>
+
     </section>
 
 
@@ -195,9 +184,6 @@
     <section id="contact" class="contact">
       <h2 class="heading">Join <span>Us</span></h2>
       <div class="contact-section-container">
-        <!-- <div class="Contact-elements contact-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90939.15043307828!2d6.061595549999999!3d44.579669249999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cb3f78d8a213d5%3A0x40819a5fd97a760!2s05000%20Gap!5e0!3m2!1sfr!2sfr!4v1707233674054!5m2!1sfr!2sfr" width="400" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div> -->
         <div class="Contact-elements contact-infos">
           <div class="Contact-element-title">
             <h3>Info</h3>
