@@ -86,9 +86,9 @@ const mains = JSON.parse(
 const desserts = JSON.parse(
 	"[" +
 		'{ "type":"separator", "description":"Nos donuts" },' +
-		'{ "type":"food", "name":"donut", "description":"donut", "price":"12.00€" },' +
-		'{ "type":"food", "name":"donut", "description":"donut", "price":"13.50€" },' +
-		'{ "type":"food", "name":"donut", "description":"donut", "price":"10.50€" } ]'
+		'{ "type":"food", "name":"donut1", "description":"donut", "price":"12.00€" },' +
+		'{ "type":"food", "name":"donut2", "description":"donut", "price":"13.50€" },' +
+		'{ "type":"food", "name":"donut3", "description":"donut", "price":"10.50€" } ]'
 );
 const drinks = JSON.parse(
 	"[" +
