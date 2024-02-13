@@ -53,9 +53,9 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.donut-one, .donut-two, .donut-three, .donut-four, .cane-image, .img-box,', { origin: 'bottom' });
+ScrollReveal().reveal('.donut-one, .donut-two, .donut-three, .donut-four, .cane-image,', { origin: 'bottom' });
 ScrollReveal().reveal('.about-img, .navi, .product-indicators, .contact-section-container', { origin: 'left' });
-ScrollReveal().reveal('.about-content, .heading, .product-menu, .footer-content', { origin: 'right' });
+ScrollReveal().reveal('.about-content, .heading, .product-menu', { origin: 'right' });
 
 
 /*======================================================
@@ -69,26 +69,31 @@ const starters = JSON.parse(
 		'{ "type":"food", "name":"Croissant chocolat", "description":"Fruits à coque, œuf, lait, soja, blé, orge, avoine, seigle, sésame", "price":"3.50€" },' +
         '{ "type":"food", "name":"Croissant framboises", "description":"Fruits à coque, œuf, lait, soja, blé, orge, avoine, seigle, sésame, céleri", "price":"3.00€" },' +
 		'{ "type":"separator", "description":"Muffins" },' +
-		'{ "type":"food", "name":"Muffin carramel", "description":"Nuts, Egg, Milk, Soya, Wheat, Sulphites", "price":"25.00€" },' +
-		'{ "type":"food", "name":"Muffin chocolat", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"15.00€" },' +
-		'{ "type":"food", "name":"Muffin crumble", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"16.00€" },'+
+		'{ "type":"food", "name":"Muffin carramel", "description":"Nuts, Egg, Milk, Soya, Wheat, Sulphites", "price":"2.10€" },' +
+		'{ "type":"food", "name":"Muffin chocolat", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"1.50€" },' +
+		'{ "type":"food", "name":"Muffin crumble", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"1.20€" },'+
         '{ "type":"separator", "description":"Cookies" },' +
-		'{ "type":"food", "name":"Cookie chocolat", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"25.00€" },' +
-		'{ "type":"food", "name":"Cookie chocolat blanc", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"15.00€" },' +
-		'{ "type":"food", "name":"Cookie double chocolat", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"16.00€" } ]'
+		'{ "type":"food", "name":"Cookie chocolat", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"2.00€" },' +
+		'{ "type":"food", "name":"Cookie chocolat blanc", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"1.00€" },' +
+		'{ "type":"food", "name":"Cookie double chocolat", "description":"Nuts, Egg, Milk, Soya, Wheat", "price":"1.00€" } ]'
 );
 const mains = JSON.parse(
 	"[" +
 		'{ "type":"separator", "description":"Nos capsules" },' +
-		'{ "type":"food", "name":"produit1", "description":"description", "price":"25.00€" },' +
-		'{ "type":"food", "name":"produit2", "description":"description", "price":"28.50€" } ]'
+		'{ "type":"food", "name":"Espresso signature", "description":"10 gélules dans une boîte", "price":"12.00€" },' +
+		'{ "type":"food", "name":"Espresso signature décaféinés", "description":"10 gélules dans une boîte", "price":"10.60€" },' +
+		'{ "type":"food", "name":"haricots moulus", "description":"10 gélules dans une boîte", "price":"8.20€" },' +
+		'{ "type":"food", "name":"Haricots moulus décaféinés", "description":"10 gélules dans une boîte", "price":"12.50€" } ]'
 );
 const desserts = JSON.parse(
 	"[" +
 		'{ "type":"separator", "description":"Nos donuts" },' +
-		'{ "type":"food", "name":"donut1", "description":"donut", "price":"12.00€" },' +
-		'{ "type":"food", "name":"donut2", "description":"donut", "price":"13.50€" },' +
-		'{ "type":"food", "name":"donut3", "description":"donut", "price":"10.50€" } ]'
+		'{ "type":"food", "name":"Donut Oreo ", "description":"Cookies & crème fourrés, glaçage chocolat, Drizzle vanille & biscuit oreo", "price":"2.00€" },' +
+		'{ "type":"food", "name":"Donut Chocolat érable", "description":"Glaçage à l\'érable et filet de chocolat.", "price":"3.50€" },' +
+		'{ "type":"food", "name":"Donut arc-en-ciel aux fraises", "description":"Glaçage aux fraises avec Sprinkles.", "price":"2.50€" },' +
+		'{ "type":"food", "name":"Donut arc-en-ciel en chocolat", "description":"Glaçage au chocolat et pépites arc-en-ciel.", "price":"2.00€" },' +
+		'{ "type":"food", "name":"Donut arc-en-ciel vanille", "description":"Glaçage à la vanille et pépites arc-en-ciel.", "price":"2.00€" },' +
+		'{ "type":"food", "name":"Donut glacé", "description":"Le donut glacé classique.", "price":"1.50€" } ]'
 );
 const drinks = JSON.parse(
 	"[" +

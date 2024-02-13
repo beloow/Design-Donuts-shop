@@ -96,6 +96,9 @@ Projet toujours en cours de création ! Des mises à jour régulières arrivent 
 - [ ] Effet d'ombre des donuts du home a revoir
 - [ ] Optimisation du code (Retrait des éléments inutile, Refonte des classes CSS)
 - [ ] Errors pages 404 & 500
+- [ ] Supprimer les doublons(html/css)
+- [ ] HTML Conforme validateur W3C 
+- [ ] CSS Conforme validateur W3C 
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
 
