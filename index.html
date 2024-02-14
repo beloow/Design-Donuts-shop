@@ -35,7 +35,7 @@
 
         <!-- Navbar Links -->
         <ul id="menu">
-          <li><a href="#home">Accueil</a></li>
+          <li><a href="#home" class="active">Accueil</a></li>
           <li><a href="#about">À propos</a></li>
           <li><a href="#product">Produits</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -52,7 +52,7 @@
 
 
     <div class="overlay-menu">
-      <ul id="menu">
+      <ul id="menu-mobile">
         <li><a href="#home">Accueil</a></li>
         <li><a href="#about">À propos</a></li>
         <li><a href="#product">Produits</a></li>
@@ -76,7 +76,7 @@
       <!-- Fruits Images Section -->
       <div class="section-container-main">
         <div class="section-container">
-          <section class="section" id="section1">
+          <div class="donuts" id="donuts-container">
             <div class="fruit-images">
               <div class="donut-one fruit-image animation-float"><img src="assets/img/donuts/donuts-01.png"
                   alt="Donut-image"></div>
@@ -87,7 +87,7 @@
               <div class="donut-four fruit-image animation-float-Lower"><img src="assets/img/donuts/donuts-04.png"
                   alt="Donut-image"></div>
             </div>
-          </section>
+          </div>
         </div>
       </div>
 
@@ -139,26 +139,26 @@
         <div class="navi">
           <div class="navi-item1">
             <button class="product-nav-button" id="startersbutton">
-              <div class="navi-icon"><i class="fas fa-seedling"></i></div>
-              <div class="navi-text"><h3>Pâtisseries</h3></div>
+              <i class="bx bx-baguette navi-icon"></i>
+              Pâtisseries
             </button>
           </div>
           <div class="navi-item2">
             <button class="product-nav-button" id="mainsbutton">
-              <div class="navi-icon"><i class="fas fa-pizza-slice"></i></div>
-              <div class="navi-text"><h3>Capsules</h3></div>
+              <i class="fa-solid fa-mug-saucer navi-icon"></i>
+              Capsules
             </button>
           </div>
           <div class="navi-item3">
             <button class="product-nav-button" id="dessertsbutton">
-              <div class="navi-icon"><i class="fas fa-ice-cream"></i></div>
-              <div class="navi-text"><h3>Donuts</h3></div>
+              <i class="fas fa-ice-cream navi-icon"></i>
+              Donuts
             </button>
           </div>
           <div class="navi-item4">
             <button class="product-nav-button" id="drinksbutton">
-              <div class="navi-icon"><i class="fas fa-wine-glass-alt"></i></div>
-              <div class="navi-text"><h3>Boissons</h3></div>
+              <i class="fas fa-wine-glass-alt navi-icon"></i>
+               Boissons
             </button>
           </div>
         </div>
@@ -279,16 +279,15 @@
   <footer>
 
     <div class="player">
-      <button class="play-button media-button" label="play">
+      <button class="play-button media-button">
         <i class="fa-solid fa-volume-xmark button-icons delta"></i>
       </button>
       <!-- AUDIO SOURCE -->
       <!-- https://youtu.be/VuA3kmHf34w -->
-      <audio class="audio pause" src="assets/audio/ambience.mp3"></audio>
+      <audio class="audio pause" src="assets/audio/ambience.mp3" preload="auto" loop disableremoteplayback></audio>
     </div>
 
     <div class="pg-footer">
-      <footer class="footer">
         <div class="footer-content">
           <div class="footer-content-column">
             <div class="footer-logo">
@@ -349,7 +348,6 @@
             </p>
           </div>
         </div>
-      </footer>
     </div>
   </footer>
 

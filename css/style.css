@@ -96,7 +96,7 @@ img {
 }
 
 a {
-  color: var(--pear-background);
+  /* color: var(--pear-background); */
   transition: 1.2s ease-out;
 }
 
@@ -123,6 +123,13 @@ header div img {
 /*======================================================
                           Menu
   ======================================================*/
+
+.sticky{
+  background: linear-gradient(var(--main-color), rgba(255,146,146, 0.5));
+  /* border-bottom: var(--apple-background) 2px solid; */
+  transition: 1s ease;
+}
+
 #navbar {
   color: var(--text-color);
   position: fixed;
@@ -149,7 +156,6 @@ header div img {
 }
 
 #navbar ul {
-  /* display: inline-block; */
   float: right;
   list-style: none;
   margin-top: -2px;
@@ -178,13 +184,18 @@ header div img {
 }
 
 #navbar li a:hover {
-  color: var(--pear-background);
+  color: var(--exotic-can);
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
 }
 
-#navbar li a:active {
-  color: var(--pear-background);
+/* active */
+
+#navbar li a.active{
+  color: var(--exotic-can) ;
+  transition: all 1.2s ease;
+  -webkit-transition: all 1s ease;
+  border-bottom: var(--exotic-can) 1px solid;
 }
 
 /* Animated Bottom Line */
@@ -195,7 +206,7 @@ header div img {
   width: 0%;
   height: 1px;
   bottom: -1px;
-  background: var(--pear-background);
+  background: var(--exotic-can);
 }
 
 #navbar li a:before {
@@ -204,12 +215,12 @@ header div img {
 }
 
 #navbar li a:after {
-  background: var(--pear-background);
+  background: var(--exotic-can);
   right: 0;
 }
 
 #navbar li a:hover:before {
-  background: var(--pear-background);
+  background: var(--exotic-can);
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
@@ -501,7 +512,7 @@ header {
   align-items: center;
 }
 
-.section {
+.donuts {
   min-width: 100vw;
   min-height: 100vh;
   position: relative;
@@ -679,6 +690,12 @@ section.about {
 	font-family: "Rubik", sans-serif;
 	font-weight: 700;
 	cursor: pointer;
+
+	color: var(--text-color);
+	height: 30px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 0.9em;
 }
 
 #startersbutton .navi-icon {
@@ -868,9 +885,18 @@ section.contact {
 /*======================================================
                           Footer
   ======================================================*/
-.footer {
+footer {
   background: linear-gradient(var(--main-color), var(--exotic-background));
   color: var(--text-color);
+}
+
+footer a {
+  color: var(--text-color);
+  transition: 1.3s ease;
+}
+
+footer a:hover {
+  color: var(--pear-logo);
 }
 
 .footer-content {
@@ -887,11 +913,6 @@ section.contact {
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
-}
-
-.footer-content-column ul li a {
-  color: var(--text-color);
-  text-decoration: none;
 }
 
 .footer-logo-link {
@@ -1306,9 +1327,13 @@ section.contact {
     font-size: 60px;
   }
 
-  .about-content {
-    text-align: center;
+  .about-content p {
+   font-size: 1rem;
   }
+  
+  .btn {
+    font-size: 1rem;
+   }
 
   .contact {
     text-align: center;
@@ -1367,10 +1392,6 @@ section.contact {
   .heading {
     text-align: center;
     font-size: 50px;
-  }
-
-  .about-content {
-    text-align: center;
   }
 
   .contact {
@@ -1516,7 +1537,7 @@ section.contact {
 		display: flex;
 	}
 	.product-nav-button {
-		height: 70px;
+		/* height: 70px; */
 		width: 100%;
 		margin: 15px;
 		display: flex;
@@ -1528,6 +1549,7 @@ section.contact {
 		line-height: 70px;
 		font-size: 25px;
 		text-align: center;
+    padding-right: 10px;
 	}
 	.navi-text {
 		line-height: 70px;
