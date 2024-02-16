@@ -93,7 +93,6 @@ Projet toujours en cours de création ! Des mises à jour régulières arrivent 
 - [x] Section Contact
 - [x] Section About a revoir en version mobile
 - [ ] Refonte du menu mobile/pc (Revoir responsive format tablette)
-- [ ] Effet d'ombre des donuts du home a revoir
 - [ ] Optimisation du code (Retrait des éléments inutile, Refonte des classes CSS)
 - [ ] Errors pages 404 & 500
 - [ ] Supprimer les doublons(html/css)
