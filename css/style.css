@@ -101,11 +101,11 @@ header div img {
                           Menu
   ======================================================*/
 .sticky {
-  background: linear-gradient(var(--main-color), rgba(255, 146, 146, 0.5));
+  background: var(--main-color);
   transition: 1s ease;
 }
 #navbar {
-  color: var(--text-color);
+  color: var(--icolor1);
   position: fixed;
   top: 1rem;
   height: 60px;
@@ -151,16 +151,16 @@ header div img {
   -webkit-transition: all 0.5s ease;
 }
 #navbar li a:hover {
-  color: var(--exotic-can);
+  color: var(--icolor1);
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
 }
 /* active */
 #navbar li a.active {
-  color: var(--exotic-can);
+  color: var(--icolor1);
   transition: all 1.2s ease;
   -webkit-transition: all 1s ease;
-  border-bottom: var(--exotic-can) 1px solid;
+  border-bottom: var(--icolor1) 1px solid;
 }
 /* Animated Bottom Line */
 #navbar li a:before,
@@ -170,18 +170,18 @@ header div img {
   width: 0%;
   height: 1px;
   bottom: -1px;
-  background: var(--exotic-can);
+  background: var(--icolor1);
 }
 #navbar li a:before {
   left: 0;
   transition: 0.5s;
 }
 #navbar li a:after {
-  background: var(--exotic-can);
+  background: var(--icolor1);
   right: 0;
 }
 #navbar li a:hover:before {
-  background: var(--exotic-can);
+  background: var(--icolor1);
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
@@ -252,7 +252,7 @@ button:focus,
   border: none;
 }
 header {
-  padding: 22px 28px 70px;
+  padding: 22px 0px 70px;
   position: fixed;
   top: 0;
   left: 0;
